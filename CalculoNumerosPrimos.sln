@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoNumerosPrimos.Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoNumerosPrimos.Application", "CalculoNumerosPrimos.Application\CalculoNumerosPrimos.Application.csproj", "{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoNumerosPrimos.API", "CalculoNumerosPrimos.API\CalculoNumerosPrimos.API.csproj", "{7ADA56B3-25D5-41CB-8892-F706AE82DBDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADA56B3-25D5-41CB-8892-F706AE82DBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADA56B3-25D5-41CB-8892-F706AE82DBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADA56B3-25D5-41CB-8892-F706AE82DBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADA56B3-25D5-41CB-8892-F706AE82DBDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E} = {A70F0541-EC28-469E-9102-49664C92D149}
 		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7} = {FE053072-8B53-48EF-8B2F-F7F11E302741}
+		{7ADA56B3-25D5-41CB-8892-F706AE82DBDF} = {A5ABC0F4-77D4-42BF-BB98-E6330537C50F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F7D1B23-A1D5-4CC9-AB29-FA04A2877116}
