@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoNumerosPrimos.Domain", "CalculoNumerosPrimos.Domain\CalculoNumerosPrimos.Domain.csproj", "{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoNumerosPrimos.Application", "CalculoNumerosPrimos.Application\CalculoNumerosPrimos.Application.csproj", "{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E} = {A70F0541-EC28-469E-9102-49664C92D149}
+		{68945D3E-A234-4A9A-B9BC-AC2C8E6232D7} = {FE053072-8B53-48EF-8B2F-F7F11E302741}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F7D1B23-A1D5-4CC9-AB29-FA04A2877116}
