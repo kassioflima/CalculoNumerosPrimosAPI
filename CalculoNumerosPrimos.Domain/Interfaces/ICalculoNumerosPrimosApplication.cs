@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CalculoNumerosPrimos.Domain.Queries;
+using System.Threading.Tasks;
 
 namespace CalculoNumerosPrimos.Domain.Interfaces
 {
     public interface ICalculoNumerosPrimosApplication
     {
-        
+        Task<NumerosPrimosQueryResult> CalcularDivisoresEPrimos(int numero);
     }
 }
