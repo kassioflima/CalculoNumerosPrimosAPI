@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - API", "01 - API", "{A5ABC0F4-77D4-42BF-BB98-E6330537C50F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{FE053072-8B53-48EF-8B2F-F7F11E302741}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{A70F0541-EC28-469E-9102-49664C92D149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoNumerosPrimos.Domain", "CalculoNumerosPrimos.Domain\CalculoNumerosPrimos.Domain.csproj", "{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB55DCF8-F1DF-4447-9968-B42750EB9F5E} = {A70F0541-EC28-469E-9102-49664C92D149}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F7D1B23-A1D5-4CC9-AB29-FA04A2877116}
+	EndGlobalSection
+EndGlobal
