@@ -1,10 +1,10 @@
-﻿using CalculoNumerosPrimos.Domain.Queries;
+﻿using CalculoNumerosPrimos.Domain.Commands;
 using System.Threading.Tasks;
 
 namespace CalculoNumerosPrimos.Domain.Interfaces
 {
     public interface ICalculoNumerosPrimosApplication
     {
-        Task<NumerosPrimosQueryResult> CalcularDivisoresEPrimos(int numero);
+        Task<ICommandResult> HandleAsync(NumeroCommand command);
     }
 }

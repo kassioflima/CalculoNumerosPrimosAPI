@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CalculoNumerosPrimos.Domain\CalculoNumerosPrimos.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
